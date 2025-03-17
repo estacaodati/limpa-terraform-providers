@@ -51,7 +51,7 @@ Para rodar o script, basta habilitar a permissão de execução do powershell ro
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-Só salvar em algum canto da sua máquina o script, e rodar passando o caminho onde você quer realizar a limpeza:
+Só salvar em algum canto da sua máquina o script e rodar passando o caminho onde você quer realizar a limpeza:
  
 ```Powershell 
 .\limpar-terraform.ps1 -Caminho "C:\temp"
